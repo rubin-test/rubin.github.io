@@ -1,0 +1,22 @@
+.achievement-caption {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.image-thumbnail {
+  width: 190px;
+  height: 262px;
+  margin-left: 15px;
+  border: 1px solid brown;
+}
+
+.image-thumbnail:hover {
+  position: absolute;
+  -webkit-transform: scale(2.0);
+      -ms-transform: scale(2.0);
+          transform: scale(2.0);
+  -webkit-transition: 1.0s;
+       -o-transition: 1.0s;
+          transition: 1.0s;
+  z-index: 2;
+}
