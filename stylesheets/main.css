@@ -255,18 +255,18 @@ textarea {
 }
 
 .company-phone-link {
-  text-decoration: none;
   font-weight: bold;
   cursor: default;
-}
-
-.language-choose-section {
-  margin-left: 23%;
 }
 
 .language-choose-section,
 .language-list-item {
   display: inline-block;
+}
+
+.language-choose-section {
+  margin-left: 23%;
+  visibility: hidden; /* Make it visible when multi-language will done*/
 }
 
 .language-list-item {
@@ -545,6 +545,9 @@ textarea {
     width: 77%;
   }
 
+  .experience-slogan {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 890px) {
@@ -599,6 +602,11 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-left: 11%;
+  }
+
+  .experience-slogan {
+    margin-left: -10%;
   }
 }
 
@@ -627,6 +635,10 @@ textarea {
 
   .company-phones-section {
     display: none;
+  }
+
+  .main-menu-small-screens {
+    margin-left: 20%;
   }
 
   .company-phones-section__small-screens {
