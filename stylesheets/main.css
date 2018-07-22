@@ -383,6 +383,11 @@ textarea {
   width: 35%;
 }
 
+/* Tables for price page */
+.table {
+  width: 100%;
+}
+
 /* Aside image-menu */
 .aside-menu {
   position: relative;
@@ -504,6 +509,48 @@ textarea {
 }
 
 /* Media queries */
+@media (min-width: 1680px) {
+  .main-menu {
+    width: 39%;
+  }
+  .experience-slogan {
+    margin-left: 13%;
+  }
+
+  .activities-aside-container {
+    top: -12px;
+  }
+
+  .agro-companies-security-item {
+    bottom: 56px;
+    right: 98px;
+  }
+
+  .cargo-security-item {
+    bottom: 159px;
+    right: -9px;
+  }
+  .security-audit {
+    bottom: 55px;
+    right: 95px;
+  }
+
+  .control-systems-item {
+    bottom: 55px;
+    right: 210px;
+  }
+  
+  .security-alarm-item {
+    bottom: 160px;
+    right: -105px;
+  }
+
+  .data-protection-item {
+    bottom: 54px;
+    right: 206px;
+  }
+}
+
 @media (max-width: 1230px) {
 
   .logo-image {
